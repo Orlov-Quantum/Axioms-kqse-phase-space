@@ -1,0 +1,39 @@
+name,actual,expected,abs_difference,tolerance,passed
+experimental nocorr: minimum r=0,-0.0023917633257062,-0.002392,2.3667429379986213e-07,5e-06,True
+experimental nocorr: negative nodes r=0,13.0,13.0,0.0,0.0,True
+experimental nocorr: minimum r=1,-0.0064440176326041,-0.006444,1.763260409990558e-08,5e-06,True
+experimental nocorr: negative nodes r=1,40.0,40.0,0.0,0.0,True
+experimental nocorr: minimum r=2,-0.0440537218026825,-0.044054,2.781973175020047e-07,5e-06,True
+experimental nocorr: negative nodes r=2,27.0,27.0,0.0,0.0,True
+experimental nocorr: minimum r=3,-0.020604362821543,-0.020604,3.6282154300057434e-07,5e-06,True
+experimental nocorr: negative nodes r=3,25.0,25.0,0.0,0.0,True
+experimental corr: minimum r=0,-0.0023549293151731,-0.002355,7.06848269000672e-08,5e-06,True
+experimental corr: negative nodes r=0,14.0,14.0,0.0,0.0,True
+experimental corr: minimum r=1,-0.0069468574632233,-0.006947,1.4253677670019588e-07,5e-06,True
+experimental corr: negative nodes r=1,39.0,39.0,0.0,0.0,True
+experimental corr: minimum r=2,-0.0045306872034556,-0.004531,3.1279654440045934e-07,5e-06,True
+experimental corr: negative nodes r=2,21.0,21.0,0.0,0.0,True
+experimental corr: minimum r=3,-0.0220755920173511,-0.022076,4.079826488971594e-07,5e-06,True
+experimental corr: negative nodes r=3,19.0,19.0,0.0,0.0,True
+nocorr max P60-,0.0764854175529423,0.076485,4.1755294230561013e-07,5e-06,True
+nocorr P60-/P60+ (at max P60-),0.07106089896969985,0.0711,3.9101030300150996e-05,5e-05,True
+nocorr max S60,1.0073610335491103,1.007361,3.3549110378672253e-08,5e-06,True
+nocorr Bochner min,-0.0534591677626447,-0.053459,1.6776264469969826e-07,5e-06,True
+corr max P60-,0.0380180781876747,0.038018,7.818767469580656e-08,5e-06,True
+corr P60-/P60+ (at max P60-),0.03664034955835544,0.0366,4.0349558355440296e-05,5e-05,True
+corr max S60,1.0068976036073918,1.006898,3.963926082928282e-07,5e-06,True
+corr Bochner min,-0.0562157017602787,-0.056216,2.982397213011079e-07,5e-06,True
+reference max P60-,0.0001293487427108,0.000129,3.487427108000106e-07,2e-06,True
+reference Bochner min,3.058208166183871e-06,3.06e-06,1.791833816129e-09,1e-06,True
+"nocorr Wigner integral [-4,4]^2",0.9984229292243147,0.998423,7.077568520141853e-08,5e-06,True
+"corr Wigner integral [-4,4]^2",0.9964062803342236,0.996406,2.8033422361239957e-07,5e-06,True
+raw empirical min r2,-0.09421164347292585,-0.09421,1.6434729258468783e-06,5e-05,True
+angle-snapped exact: Bochner min,-0.04003465533933783,-0.04,3.465533933783016e-05,0.0005,True
+angle-snapped exact: r2 min,-0.0008646488430203578,-0.000865,3.51156979642173e-07,3e-06,True
+fock1 oracle regularizer: maximum P3-,0.03121529214562359,0.0312,1.529214562359313e-05,0.0001,True
+fock1 180 Monte Carlo: median P3- empirical,0.015796452592347347,0.0158,3.5474076526542664e-06,0.0003,True
+fock1 180 Monte Carlo: median P3- KCFE plug-in,0.06051035300266718,0.0605,1.0353002667183586e-05,0.0003,True
+"kitten ideal, nocorr, min_r2 count",0.0,0.0,0.0,0.0,True
+"kitten assumed_gaussian_noise, nocorr, min_r2 count",8.0,8.0,0.0,0.0,True
+"kitten assumed_gaussian_noise, corr, min_r2 count",62.0,62.0,0.0,0.0,True
+"kitten assumed_gaussian_noise, corr, min_r3 count",3.0,3.0,0.0,0.0,True

@@ -1,0 +1,19 @@
+{
+  "total_checks": 38,
+  "passed_checks": 38,
+  "failed_checks": 0,
+  "failed": [],
+  "shot_count": 14153,
+  "synthetic_state_trials_per_bin": 180,
+  "kitten_sim_trials_per_scenario": 150,
+  "warnings": [
+    "Pilot on real data uses analytically integrated truncated Gaussian KDE [-3,3].",
+    "Kitten MC uses validated full-line Gaussian pilot approximation.",
+    "Experimental kitten reference is approximate, not true unknown state.",
+    "Oracle bandwidth from the exact CF is a deterministic mechanism test, not a practical estimator.",
+    "The 41-point synthetic CF grid is distinct from the 61-point experimental grid.",
+    "Finite Bochner tests only detect violations; never certify quantum physicality.",
+    "No finite photon number cutoff establishes complete normalization.",
+    "Phase smoothing and other alternative processing methods are exploratory."
+  ]
+}
